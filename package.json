@@ -1,0 +1,17 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "description": "A template file",
+  "main": "index.js",
+  "author": "Christian William Dierks",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "fs-extra": "^8.1.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-cache": "^1.1.2",
+    "gulp-imagemin": "^6.0.0",
+    "gulp-sass": "^4.0.2"
+  }
+}

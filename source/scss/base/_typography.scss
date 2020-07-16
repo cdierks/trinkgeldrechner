@@ -1,0 +1,46 @@
+* {
+    font-family: $font;
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    color: $colour-text;
+    text-align: center;
+}
+// HEADER
+
+.title, .subtitle {
+    text-align: left;
+}
+
+.title {
+    font-size: 20pt;
+    font-weight: bold;
+    color: $colour-white;
+    margin-bottom: 12px;
+}
+
+.subtitle {
+    color: $colour-muted;
+}
+
+// RECHNUNGSBETRAG
+.rechnungsbetrag {
+    color: $colour-1;
+    font-size: 36pt;
+    font-weight: 300;
+}
+
+// ZAHLBETRAG
+
+.zahlbetrag p {
+    color: $colour-white;
+}
+
+p.zahlbetrag-zahlbetrag {
+    color: $colour-1;
+    font-weight: bold;
+    font-size: 48pt;
+    margin-top: 16px;
+}

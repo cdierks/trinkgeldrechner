@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Template</title>
+  <!-- FONTAWESOME -->
+  <script defer="defer" src="design/js/fontawesome.js"></script>
+  <script defer="defer" src="design/js/brands.js"></script>
+  <script defer="defer" src="design/js/light.js"></script>
+  <!-- STYLESHEET -->
+  <link rel="stylesheet" href="design/css/main.css">
+</head>
+
+<body>
+  <div class="grid-container">
+    <!-- Header -->
+    <div class="grid-item header">
+      <p class="title">Trinkgeldrechner</p>
+      <p class="subtitle">Unkompliziert das Trinkgeld berechnen</p>
+
+    </div>
+    <div class="grid-item betrag-beschriftung">Rechnungsbetrag:</div>
+    <div class="grid-item rechnung">
+      <input type="text" name="rechnungsbetrag" id="rechnungsbetrag" class="rechnungsbetrag">
+    </div>
+    <div class="grid-item">
+      <p class="rechnungsbetrag">€</p>
+    </div>
+    <div class="grid-item">Wie war der Service?</div>
+    <div class="grid-item rating">
+      <button class="circle-2" id="b1">
+        <span class="icon-styling"><i class="fal fa-frown"></i></span>
+      </button>
+      10 %
+    </div>
+    <div class="grid-item rating">
+      <button class="circle-2" id="b2">
+        <span class="icon-styling"><i class="fal fa-meh"></i></span>
+      </button>
+      15 %
+    </div>
+    <div class="grid-item rating">
+      <button class="circle-2" id="b3">
+        <span class="icon-styling"><i class="fal fa-smile-beam"></i></span>
+      </button>
+      20 %
+    </div>
+    <div class="grid-item zahlbetrag">
+      <p class="zahlbetrag-beschriftung">zu zahlender Betrag</p>
+      <p id="zahlbetrag" class="zahlbetrag-zahlbetrag">26,28 €</p>
+    </div>
+  </div>
+</body>
+
+</html>
